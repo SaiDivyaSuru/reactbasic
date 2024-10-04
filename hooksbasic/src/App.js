@@ -7,6 +7,8 @@ import ClassCounterOne from './Component/ClassCounterOne';
 import HookCounterOne from './Component/HookCounterOne';
 import ClassMouseEvent from './Component/ClassMouseEvent';
 import HookMouse from './Component/HookMouse';
+import MouseContainer from './Component/MouseContainer';
+import DataFetchin from './Component/DataFetchin';
 
 function App() {
   return (
@@ -17,7 +19,9 @@ function App() {
        {/* <ClassCounterOne/>  */}
       {/* <HookCounterOne/> */}
       {/* <ClassMouseEvent/> */}
-      <HookMouse/>
+      {/* <HookMouse/> */}
+      {/* <MouseContainer/> */}
+      <DataFetchin/>
     </div>
   );
 }
