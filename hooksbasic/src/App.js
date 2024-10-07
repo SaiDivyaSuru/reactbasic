@@ -9,6 +9,8 @@ import ClassMouseEvent from './Component/ClassMouseEvent';
 import HookMouse from './Component/HookMouse';
 import MouseContainer from './Component/MouseContainer';
 import DataFetchin from './Component/DataFetchin';
+import Reducer from './Component/Reducer';
+import ComplexReducer from './Component/ComplexReducer';
 
 function App() {
   return (
@@ -21,7 +23,9 @@ function App() {
       {/* <ClassMouseEvent/> */}
       {/* <HookMouse/> */}
       {/* <MouseContainer/> */}
-      <DataFetchin/>
+      {/* <DataFetchin/> */}
+      {/* <Reducer/> */}
+      <ComplexReducer/>
     </div>
   );
 }
