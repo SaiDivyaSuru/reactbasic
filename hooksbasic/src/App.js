@@ -11,21 +11,15 @@ import MouseContainer from './Component/MouseContainer';
 import DataFetchin from './Component/DataFetchin';
 import Reducer from './Component/Reducer';
 import ComplexReducer from './Component/ComplexReducer';
+import ClassClickCounter from './Component/ClassClickCounter';
+import HoverCounter from './Component/HoverCounter';
+
 
 function App() {
   return (
     <div className="App">
-      {/* <FunctionalComponent/> */}
-      {/* <Hookcounter/> */}
-      {/* <Usestateobj/> */}
-       {/* <ClassCounterOne/>  */}
-      {/* <HookCounterOne/> */}
-      {/* <ClassMouseEvent/> */}
-      {/* <HookMouse/> */}
-      {/* <MouseContainer/> */}
-      {/* <DataFetchin/> */}
-      {/* <Reducer/> */}
-      <ComplexReducer/>
+      <ClassClickCounter name='sai'/>
+      <HoverCounter/>
     </div>
   );
 }
